@@ -11,8 +11,8 @@ Made an Instruction Register which captures the data  that was passed to the bus
 ## Operations Allowed
 |**Operations**|**Symbol**|**Function**|
 | :--- | :--- | :--- |
-|Load|`load`| Reads the value from the bus which was passed by RAM and stores it |
-|Drive|`drive`| Writes the value on the bus when needed for operations such as by ALU |
+|Load|`load`| Reads the value from the bus which was passed by RAM and stores it. |
+|Drive|`drive`| Writes the value on the bus when needed for operations such as by ALU. |
 |Reset|`reset`| Resets the value stored in IR to 8'b0000_0000. |
 
 ## Schematic :
